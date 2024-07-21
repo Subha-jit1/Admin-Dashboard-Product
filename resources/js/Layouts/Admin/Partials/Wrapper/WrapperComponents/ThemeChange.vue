@@ -80,7 +80,7 @@
             isSystemTheme = 1;
         }
         document.documentElement.setAttribute("data-bs-theme", mode);
-        data_bs_theme.value = isSystemTheme ? data_bs_theme.value = 'system' : data_bs_theme.value = mode;
+        data_bs_theme.value = isSystemTheme ?  'system' :  mode;
         localStorage.setItem("data-bs-theme", mode);
     }; 
 
