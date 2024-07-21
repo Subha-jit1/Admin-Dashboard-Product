@@ -18,7 +18,7 @@
                      </div>
                   </div>
                   <div class="menu-item">
-                     <a class="menu-link active" href="index.html">
+                     <a class="menu-link active" href="#">
                         <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                         </span>
@@ -26,7 +26,7 @@
                      </a>
                   </div>
                   <div class="menu-item">
-                     <a class="menu-link" href="dashboards/ecommerce.html">
+                     <a class="menu-link" href="#">
                      <span class="menu-bullet">
                      <span class="bullet bullet-dot"></span>
                      </span>
@@ -34,7 +34,7 @@
                      </a>
                   </div>
                   <div class="menu-item">
-                     <a class="menu-link" href="dashboards/projects.html">
+                     <a class="menu-link" href="#">
                      <span class="menu-bullet">
                      <span class="bullet bullet-dot"></span>
                      </span>
@@ -42,7 +42,7 @@
                      </a>
                   </div>
                   <div class="menu-item">
-                     <a class="menu-link" href="dashboards/online-courses.html">
+                     <a class="menu-link" href="#">
                      <span class="menu-bullet">
                      <span class="bullet bullet-dot"></span>
                      </span>
@@ -50,7 +50,7 @@
                      </a>
                   </div>
                   <div class="menu-item">
-                     <a class="menu-link" href="dashboards/marketing.html">
+                     <a class="menu-link" href="#">
                      <span class="menu-bullet">
                      <span class="bullet bullet-dot"></span>
                      </span>
@@ -59,7 +59,7 @@
                   </div>
                   <div class="menu-inner flex-column collapse" id="kt_app_sidebar_menu_dashboards_collapse">
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/bidding.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -67,7 +67,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/pos.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -75,7 +75,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/call-center.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -83,7 +83,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/logistics.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -91,7 +91,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/website-analytics.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -99,7 +99,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/finance-performance.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -107,7 +107,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/store-analytics.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -115,7 +115,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/social.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -123,7 +123,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/delivery.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -131,7 +131,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/crypto.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -139,7 +139,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/school.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -147,7 +147,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="dashboards/podcast.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -155,7 +155,7 @@
                         </a>
                      </div>
                      <div class="menu-item">
-                        <a class="menu-link" href="landing.html">
+                        <a class="menu-link" href="#">
                         <span class="menu-bullet">
                         <span class="bullet bullet-dot"></span>
                         </span>
@@ -165,7 +165,7 @@
                   </div>
                   <div class="menu-item">
                      <div class="menu-content">
-                        <a class="btn btn-flex btn-color-primary d-flex flex-stack fs-base p-0 ms-2 mb-2 toggle collapsible collapsed" data-bs-toggle="collapse" href="#kt_app_sidebar_menu_dashboards_collapse" data-kt-toggle-text="Show Less">
+                        <a class="btn btn-flex btn-color-primary d-flex flex-stack fs-base p-0 ms-2 mb-2 toggle collapsible collapsed" data-bs-toggle="collapse" href="#" data-kt-toggle-text="Show Less">
                         <span data-kt-toggle-text-target="true">Show 12 More</span>
                         <i class="ki-duotone ki-minus-square toggle-on fs-2 me-0">
                         <span class="path1"></span>
@@ -208,7 +208,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/user-profile/overview.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -216,7 +216,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/user-profile/projects.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -224,7 +224,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/user-profile/campaigns.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -232,7 +232,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/user-profile/documents.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -240,7 +240,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/user-profile/followers.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -248,7 +248,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/user-profile/activity.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -267,7 +267,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="account/overview.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -275,7 +275,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="account/settings.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -283,7 +283,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="account/security.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -291,7 +291,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="account/activity.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -299,7 +299,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="account/billing.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -307,7 +307,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="account/statements.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -315,7 +315,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="account/referrals.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -323,7 +323,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="account/api-keys.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -331,7 +331,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="account/logs.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -359,7 +359,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion menu-active-bg">
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/corporate/sign-in.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -367,7 +367,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/corporate/sign-up.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -375,7 +375,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/corporate/two-factor.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -383,7 +383,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/corporate/reset-password.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -391,7 +391,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/corporate/new-password.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -410,7 +410,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion menu-active-bg">
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/overlay/sign-in.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -418,7 +418,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/overlay/sign-up.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -426,7 +426,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/overlay/two-factor.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -434,7 +434,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/overlay/reset-password.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -442,7 +442,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/overlay/new-password.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -461,7 +461,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion menu-active-bg">
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/creative/sign-in.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -469,7 +469,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/creative/sign-up.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -477,7 +477,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/creative/two-factor.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -485,7 +485,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/creative/reset-password.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -493,7 +493,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/creative/new-password.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -512,7 +512,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion menu-active-bg">
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/fancy/sign-in.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -520,7 +520,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/fancy/sign-up.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -528,7 +528,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/fancy/two-factor.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -536,7 +536,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/fancy/reset-password.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -544,7 +544,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/layouts/fancy/new-password.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -563,7 +563,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion menu-active-bg">
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/email/welcome-message.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -571,7 +571,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/email/reset-password.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -579,7 +579,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/email/subscription-confirmed.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -587,7 +587,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/email/card-declined.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -595,7 +595,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/email/promo-1.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -603,7 +603,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/email/promo-2.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -611,7 +611,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="authentication/email/promo-3.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -621,7 +621,7 @@
                            </div>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="authentication/extended/multi-steps-sign-up.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -629,7 +629,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="authentication/general/welcome.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -637,7 +637,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="authentication/general/verify-email.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -645,7 +645,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="authentication/general/coming-soon.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -653,7 +653,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="authentication/general/password-confirmation.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -661,7 +661,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="authentication/general/account-deactivated.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -669,7 +669,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="authentication/general/error-404.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -677,7 +677,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="authentication/general/error-500.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -696,7 +696,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/about.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -704,7 +704,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/team.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -712,7 +712,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/contact.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -720,7 +720,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/licenses.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -728,7 +728,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/sitemap.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -747,7 +747,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/social/feeds.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -755,7 +755,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/social/activity.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -763,7 +763,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/social/followers.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -771,7 +771,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/social/settings.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -790,7 +790,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/blog/home.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -798,7 +798,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/blog/post.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -817,7 +817,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/careers/list.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -825,7 +825,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="pages/careers/apply.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -870,7 +870,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion menu-active-bg">
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/general/invite-friends.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -878,7 +878,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/general/view-users.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -886,7 +886,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/general/select-users.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -894,7 +894,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/general/upgrade-plan.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -902,7 +902,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/general/share-earn.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -921,7 +921,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion menu-active-bg">
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/forms/new-target.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -929,7 +929,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/forms/new-card.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -937,7 +937,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/forms/new-address.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -945,7 +945,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/forms/create-api-key.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -953,7 +953,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/forms/bidding.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -972,7 +972,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion menu-active-bg">
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/wizards/create-app.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -980,7 +980,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/wizards/create-campaign.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -988,7 +988,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/wizards/create-account.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -996,7 +996,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/wizards/create-project.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1004,7 +1004,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/wizards/top-up-wallet.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1012,7 +1012,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/wizards/offer-a-deal.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1020,7 +1020,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/wizards/two-factor-authentication.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1039,7 +1039,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion menu-active-bg">
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/search/users.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1047,7 +1047,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="utilities/modals/search/select-location.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1068,7 +1068,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/wizards/horizontal.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1076,7 +1076,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/wizards/vertical.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1084,7 +1084,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/wizards/two-factor-authentication.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1092,7 +1092,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/wizards/create-app.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1100,7 +1100,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/wizards/create-campaign.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1108,7 +1108,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/wizards/create-account.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1116,7 +1116,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/wizards/create-project.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1124,7 +1124,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/modals/wizards/top-up-wallet.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1132,7 +1132,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/wizards/offer-a-deal.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1151,7 +1151,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/search/horizontal.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1159,7 +1159,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/search/vertical.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1167,7 +1167,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/search/users.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1175,7 +1175,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="utilities/search/select-location.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1214,7 +1214,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/projects/list.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1222,7 +1222,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/projects/project.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1230,7 +1230,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/projects/targets.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1238,7 +1238,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/projects/budget.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1246,7 +1246,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/projects/users.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1254,7 +1254,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/projects/files.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1262,7 +1262,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/projects/activity.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1270,7 +1270,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/projects/settings.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1298,7 +1298,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion">
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/catalog/products.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1306,7 +1306,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/catalog/categories.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1314,7 +1314,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/catalog/add-product.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1322,7 +1322,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/catalog/edit-product.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1330,7 +1330,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/catalog/add-category.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1338,7 +1338,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/catalog/edit-category.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1357,7 +1357,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion">
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/sales/listing.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1365,7 +1365,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/sales/details.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1373,7 +1373,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/sales/add-order.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1381,7 +1381,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/sales/edit-order.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1400,7 +1400,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion">
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/customers/listing.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1408,7 +1408,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/customers/details.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1427,7 +1427,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion">
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/reports/view.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1435,7 +1435,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/reports/sales.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1443,7 +1443,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/reports/returns.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1451,7 +1451,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/reports/customer-orders.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1459,7 +1459,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/ecommerce/reports/shipping.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1469,7 +1469,7 @@
                            </div>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/ecommerce/settings.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1491,7 +1491,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/contacts/getting-started.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1499,7 +1499,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/contacts/add-contact.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1507,7 +1507,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/contacts/edit-contact.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1515,7 +1515,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/contacts/view-contact.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1537,7 +1537,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/support-center/overview.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1554,7 +1554,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion">
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/support-center/tickets/list.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1562,7 +1562,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/support-center/tickets/view.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1581,7 +1581,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion">
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/support-center/tutorials/list.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1589,7 +1589,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/support-center/tutorials/post.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1599,7 +1599,7 @@
                            </div>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/support-center/faq.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1607,7 +1607,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/support-center/licenses.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1615,7 +1615,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/support-center/contact.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1646,7 +1646,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion">
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/user-management/users/list.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1654,7 +1654,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/user-management/users/view.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1673,7 +1673,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion">
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/user-management/roles/list.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1681,7 +1681,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/user-management/roles/view.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1691,7 +1691,7 @@
                            </div>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/user-management/permissions.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1713,7 +1713,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/customers/getting-started.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1721,7 +1721,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/customers/list.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1729,7 +1729,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/customers/view.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1752,7 +1752,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/subscriptions/getting-started.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1760,7 +1760,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/subscriptions/list.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1768,7 +1768,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/subscriptions/add.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1776,7 +1776,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/subscriptions/view.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1807,7 +1807,7 @@
                            </span>
                            <div class="menu-sub menu-sub-accordion menu-active-bg">
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/invoices/view/invoice-1.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1815,7 +1815,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/invoices/view/invoice-2.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1823,7 +1823,7 @@
                                  </a>
                               </div>
                               <div class="menu-item">
-                                 <a class="menu-link" href="apps/invoices/view/invoice-3.html">
+                                 <a class="menu-link" href="#">
                                  <span class="menu-bullet">
                                  <span class="bullet bullet-dot"></span>
                                  </span>
@@ -1833,7 +1833,7 @@
                            </div>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/invoices/create.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1855,7 +1855,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/file-manager/folders.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1863,7 +1863,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/file-manager/files.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1871,7 +1871,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/file-manager/blank.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1879,7 +1879,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/file-manager/settings.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1901,7 +1901,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/inbox/listing.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1912,7 +1912,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/inbox/compose.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1920,7 +1920,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/inbox/reply.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1943,7 +1943,7 @@
                      </span>
                      <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/chat/private.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1951,7 +1951,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/chat/group.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1959,7 +1959,7 @@
                            </a>
                         </div>
                         <div class="menu-item">
-                           <a class="menu-link" href="apps/chat/drawer.html">
+                           <a class="menu-link" href="#">
                            <span class="menu-bullet">
                            <span class="bullet bullet-dot"></span>
                            </span>
@@ -1969,7 +1969,7 @@
                      </div>
                   </div>
                   <div class="menu-item">
-                     <a class="menu-link" href="apps/calendar.html">
+                     <a class="menu-link" href="#">
                      <span class="menu-icon">
                      <i class="ki-duotone ki-calendar-8 fs-2">
                      <span class="path1"></span>
@@ -2001,7 +2001,7 @@
                      </div>
                   </div>
                   <div class="menu-item">
-                     <a class="menu-link" href="https://preview.keenthemes.com/html/metronic/docs/base/utilities" target="_blank" title="Check out over 200 in-house components" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                     <a class="menu-link" href="#" target="_blank" title="Check out over 200 in-house components" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                      <span class="menu-bullet">
                      <span class="bullet bullet-dot"></span>
                      </span>
@@ -2009,7 +2009,7 @@
                      </a>
                   </div>
                   <div class="menu-item">
-                     <a class="menu-link" href="https://preview.keenthemes.com/html/metronic/docs" target="_blank" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                     <a class="menu-link" href="#" target="_blank" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                      <span class="menu-bullet">
                      <span class="bullet bullet-dot"></span>
                      </span>
@@ -2017,7 +2017,7 @@
                      </a>
                   </div>
                   <div class="menu-item">
-                     <a class="menu-link" href="https://preview.keenthemes.com/metronic8/demo17/layout-builder.html" title="Build your layout and export HTML for server side integration" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                     <a class="menu-link" href="#" title="Build your layout and export HTML for server side integration" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                      <span class="menu-bullet">
                      <span class="bullet bullet-dot"></span>
                      </span>
@@ -2025,7 +2025,7 @@
                      </a>
                   </div>
                   <div class="menu-item">
-                     <a class="menu-link" href="https://preview.keenthemes.com/html/metronic/docs/getting-started/changelog" target="_blank">
+                     <a class="menu-link" href="#" target="_blank">
                      <span class="menu-bullet">
                      <span class="bullet bullet-dot"></span>
                      </span>
