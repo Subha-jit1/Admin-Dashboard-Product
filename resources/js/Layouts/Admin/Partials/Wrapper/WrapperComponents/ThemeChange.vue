@@ -1,6 +1,5 @@
 <template> 
-    <div class="me-3">
-        <!-- theme change -->
+    <div class="me-3"> 
         <a href="#" class="btn btn-icon btn-color-gray-700 btn-active-color-primary btn-outline bg-transparent w-40px h-40px active"
         data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-attach="parent"
         data-kt-menu-placement="bottom-end">
@@ -20,8 +19,7 @@
                 <span class="path1"></span>
                 <span class="path2"></span>
             </i>
-        </a>
-        <!-- custom-style-theme -->
+        </a> 
         <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-gray-500 menu-active-bg menu-state-color fw-semibold py-4 fs-base w-150px "
         data-kt-menu="true" data-kt-element="theme-mode-menu" >
             <div class="menu-item px-3 my-0">
@@ -67,8 +65,7 @@
                 <span class="menu-title">System</span>
                 </a>
             </div>
-        </div>
-        <!-- end theme change -->
+        </div> 
      </div>
 </template>
 <script setup> 
