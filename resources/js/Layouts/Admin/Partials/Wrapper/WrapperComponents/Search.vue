@@ -13,30 +13,23 @@
                  </i>
               </div>
            </div>
-           <form data-kt-search-element="form" class="d-none d-lg-block w-100 mb-5 mb-lg-0 position-relative"
-              autocomplete="off">
+           <form data-kt-search-element="form" class="d-none d-lg-block w-100 mb-5 mb-lg-0 position-relative" autocomplete="off">
               <input type="hidden" />
-              <i
-                 class="ki-duotone ki-magnifier fs-2 text-gray-700 position-absolute top-50 translate-middle-y ms-4">
+              <i class="ki-duotone ki-magnifier fs-2 text-gray-700 position-absolute top-50 translate-middle-y ms-4">
                  <span class="path1"></span>
                  <span class="path2"></span>
               </i>
               <input type="text" class="form-control bg-transparent ps-13 fs-7 h-40px" name="search" value=""
                  placeholder="Find Goods" data-kt-search-element="input" />
-              <span class="position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-5"
+          
+              <span class="btn btn-flush btn-active-color-primary position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-4"
                  data-kt-search-element="spinner">
-                 <span class="spinner-border h-15px w-15px align-middle text-gray-500"></span>
-              </span>
-              <span
-                 class="btn btn-flush btn-active-color-primary position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-4"
-                 data-kt-search-element="clear">
                  <i class="ki-duotone ki-cross fs-2 fs-lg-1 me-0">
                     <span class="path1"></span>
                     <span class="path2"></span>
                  </i>
               </span>
-           </form>
-           <!-- custom-style-search -->
+           </form> 
            <div data-kt-search-element="content"
               class="menu menu-sub menu-sub-dropdown py-7 px-7 overflow-hidden w-300px w-md-350px position-absolute top-0"
               style="margin-top: 80px;margin-left: -122px;">
@@ -491,4 +484,15 @@
     </div>
 </template>
 <script setup> 
+   import { onMounted, ref, watch } from 'vue'; 
+   const search = ref(null);
+   const newSearch = ref();
+   onMounted(() => { 
+      searchInit();
+   }); 
+
+   const searchInit = () => {
+      let searchElement = document.querySelector("#kt_header_search");
+      search.value = new KTSearch(searchElement); 
+   }; 
 </script>

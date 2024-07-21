@@ -14,7 +14,7 @@
                     <WrapperFooter />
                 </div>
             </div>
-        </div> 
+        </div>  
         <ChatDrawer /> 
     </body>
 </template>
@@ -27,12 +27,11 @@
     import ChatDrawer from './Partials/ChatDrawer/ChatDrawer.vue'; 
 
     onMounted(() => {  
-        KTMenu.createInstances();  
-        KTToggle.createInstances();  
-        KTScroll.createInstances();
+        InitKtInstances();
         initTheme();
-     }); 
-     const initTheme = () => {
+    }); 
+
+    const initTheme = () => {
         const defaultThemeMode = "light";
         let themeMode; 
         if (document.documentElement) {
@@ -44,8 +43,7 @@
                 } else {
                     themeMode = defaultThemeMode;
                 }
-            }
-
+            } 
             if (themeMode === "system") {
                 themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
             } 
@@ -53,6 +51,13 @@
             emit.emit('changeThemeNameValue', themeMode)
         }
     };
+
+    const InitKtInstances = () => { 
+        KTMenu.createInstances();  
+        KTToggle.createInstances();  
+        KTScroll.createInstances();
+        KTDrawer.createInstances();
+    }
 </script>
 <style>
     @import "https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700";

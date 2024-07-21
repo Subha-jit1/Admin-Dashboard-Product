@@ -1,16 +1,14 @@
 <template>  
-    <div class="me-3">
-        <!-- notification -->
-        <div class="btn btn-icon btn-color-gray-700 btn-active-color-primary btn-outline bg-transparent w-40px h-40px position-relative" @click="showNotification = !showNotification">
+    <div class="me-3"> 
+        <div class="btn btn-icon btn-color-gray-700 btn-active-color-primary btn-outline bg-transparent w-40px h-40px position-relative" data-kt-menu-trigger="{default:'click', lg: 'click'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
             <i class="ki-duotone ki-notification-bing fs-1">
                 <span class="path1"></span>
                 <span class="path2"></span>
                 <span class="path3"></span>
             </i>
             <span class="bullet bullet-dot bg-primary h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink"></span>
-        </div>
-        <!-- custom-style-notification -->
-        <div class="menu menu-sub menu-sub-dropdown menu-column w-350px w-lg-375px position-absolute ml-reverse-333px mt-1px" data-kt-menu="true" id="kt_menu_notifications" :class="{'show' : showNotification}">
+        </div> 
+        <div class="menu menu-sub menu-sub-dropdown menu-column w-350px w-lg-375px position-absolute mt-5" data-kt-menu="true" id="kt_menu_notifications" >
             <div class="d-flex flex-column bgi-no-repeat rounded-top"
             style="background-image:url('/admin_assets/media/images/bg/notification-bg.jpg')">
             <h3 class="text-white fw-semibold px-9 mt-10 mb-6">Notifications
@@ -283,19 +281,12 @@
                 </div>
             </div>
             </div>
-        </div>
-        <!--end notification -->
+        </div> 
     </div>
 </template>
 <script setup> 
 import {ref} from 'vue';
 const showNotification = ref(false); 
 </script>
-<style scoped>
-    .ml-reverse-333px{
-        margin-left:-333px
-    }
-    .mt-1px{
-        margin-top:1px
-    }
+<style scoped> 
 </style>

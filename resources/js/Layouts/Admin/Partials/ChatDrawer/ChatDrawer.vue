@@ -1,17 +1,25 @@
-<template>
-    <!--  drawer-on -> just add these class to open the message -->
-      <!-- drawer-on  -->
+<template> 
     <div id="kt_drawer_chat" class="bg-body drawer drawer-end " data-kt-drawer="true" data-kt-drawer-name="chat" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'300px', 'md': '500px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_drawer_chat_toggle" data-kt-drawer-close="#kt_drawer_chat_close">
         <div class="card w-100 border-0 rounded-0" id="kt_drawer_chat_messenger">
            <div class="card-header pe-5" id="kt_drawer_chat_messenger_header">
-              <div class="card-title">
-                 <div class="d-flex justify-content-center flex-column me-3">
-                    <a href="#" class="fs-4 fw-bold text-gray-900 text-hover-primary me-1 mb-2 lh-1">Brian Cox</a>
-                    <div class="mb-0 lh-1">
-                       <span class="badge badge-success badge-circle w-10px h-10px me-1"></span>
-                       <span class="fs-7 fw-semibold text-muted">Active</span>
-                    </div>
-                 </div>
+              <div class="card-title"> 
+                 <td class="d-flex align-items-center">
+                  <!--begin:: Avatar -->
+                  <div class="symbol symbol-circle symbol-30px overflow-hidden me-2">
+                     <a href="#">
+                        <div class="symbol-label">
+                           <img src="/public/admin_assets/media/images/profile/emma.jpg" alt="Emma Smith" class="w-100">
+                        </div>
+                     </a>
+                  </div>
+                  <!--end::Avatar-->
+                  <!--begin::User details-->
+                  <div class="d-flex flex-column">
+                     <a href="#" class="text-gray-800 text-hover-primary fs-7">Emma Smith</a>
+                     <span class="fs-7 fw-semibold text-muted">Last seen 2 minutes ago</span>
+                  </div>
+                  <!--begin::User details-->
+               </td>
               </div>
               <div class="card-toolbar">
                  <div class="me-0">
@@ -71,79 +79,7 @@
               </div>
            </div>
            <div class="card-body" id="kt_drawer_chat_messenger_body">
-              <div class="scroll-y me-n5 pe-5" data-kt-element="messages" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_drawer_chat_messenger_header, #kt_drawer_chat_messenger_footer" data-kt-scroll-wrappers="#kt_drawer_chat_messenger_body" data-kt-scroll-offset="0px">
-                 <div class="d-flex justify-content-start mb-10">
-                    <div class="d-flex flex-column align-items-start">
-                       <div class="d-flex align-items-center mb-2">
-                          <div class="symbol symbol-35px symbol-circle">
-                             <img alt="Pic" src="" />
-                          </div>
-                          <div class="ms-3">
-                             <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
-                             <span class="text-muted fs-7 mb-1">2 mins</span>
-                          </div>
-                       </div>
-                       <div class="p-5 rounded bg-light-info text-gray-900 fw-semibold mw-lg-400px text-start" data-kt-element="message-text">How likely are you to recommend our company to your friends and family ?</div>
-                    </div>
-                 </div>
-                 <div class="d-flex justify-content-end mb-10">
-                    <div class="d-flex flex-column align-items-end">
-                       <div class="d-flex align-items-center mb-2">
-                          <div class="me-3">
-                             <span class="text-muted fs-7 mb-1">5 mins</span>
-                             <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary ms-1">You</a>
-                          </div>
-                          <div class="symbol symbol-35px symbol-circle">
-                             <img alt="Pic" src="" />
-                          </div>
-                       </div>
-                       <div class="p-5 rounded bg-light-primary text-gray-900 fw-semibold mw-lg-400px text-end" data-kt-element="message-text">Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.</div>
-                    </div>
-                 </div>
-                 <div class="d-flex justify-content-start mb-10">
-                    <div class="d-flex flex-column align-items-start">
-                       <div class="d-flex align-items-center mb-2">
-                          <div class="symbol symbol-35px symbol-circle">
-                             <img alt="Pic" src="" />
-                          </div>
-                          <div class="ms-3">
-                             <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
-                             <span class="text-muted fs-7 mb-1">1 Hour</span>
-                          </div>
-                       </div>
-                       <div class="p-5 rounded bg-light-info text-gray-900 fw-semibold mw-lg-400px text-start" data-kt-element="message-text">Ok, Understood!</div>
-                    </div>
-                 </div>
-                 <div class="d-flex justify-content-end mb-10">
-                    <div class="d-flex flex-column align-items-end">
-                       <div class="d-flex align-items-center mb-2">
-                          <div class="me-3">
-                             <span class="text-muted fs-7 mb-1">2 Hours</span>
-                             <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary ms-1">You</a>
-                          </div>
-                          <div class="symbol symbol-35px symbol-circle">
-                             <img alt="Pic" src="" />
-                          </div>
-                       </div>
-                       <div class="p-5 rounded bg-light-primary text-gray-900 fw-semibold mw-lg-400px text-end" data-kt-element="message-text">You’ll receive notifications for all issues, pull requests!</div>
-                    </div>
-                 </div>
-                 <div class="d-flex justify-content-start mb-10">
-                    <div class="d-flex flex-column align-items-start">
-                       <div class="d-flex align-items-center mb-2">
-                          <div class="symbol symbol-35px symbol-circle">
-                             <img alt="Pic" src="" />
-                          </div>
-                          <div class="ms-3">
-                             <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
-                             <span class="text-muted fs-7 mb-1">3 Hours</span>
-                          </div>
-                       </div>
-                       <div class="p-5 rounded bg-light-info text-gray-900 fw-semibold mw-lg-400px text-start" data-kt-element="message-text">You can unwatch this repository immediately by clicking here: 
-                          <a href="https://keenthemes.com">Keenthemes.com</a>
-                       </div>
-                    </div>
-                 </div>
+              <div class="scroll-y me-n5 pe-5" data-kt-element="messages" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_drawer_chat_messenger_header, #kt_drawer_chat_messenger_footer" data-kt-scroll-wrappers="#kt_drawer_chat_messenger_body" data-kt-scroll-offset="0px">  
                  <div class="d-flex justify-content-end mb-10">
                     <div class="d-flex flex-column align-items-end">
                        <div class="d-flex align-items-center mb-2">
@@ -152,7 +88,7 @@
                              <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary ms-1">You</a>
                           </div>
                           <div class="symbol symbol-35px symbol-circle">
-                             <img alt="Pic" src="" />
+                             <img alt="Pic" src="/public/admin_assets/media/images/profile/default_user.jpg" />
                           </div>
                        </div>
                        <div class="p-5 rounded bg-light-primary text-gray-900 fw-semibold mw-lg-400px text-end" data-kt-element="message-text">Most purchased Business courses during this sale!</div>
@@ -162,44 +98,16 @@
                     <div class="d-flex flex-column align-items-start">
                        <div class="d-flex align-items-center mb-2">
                           <div class="symbol symbol-35px symbol-circle">
-                             <img alt="Pic" src="" />
+                             <img alt="Pic" src="/public/admin_assets/media/images/profile/emma.jpg" />
                           </div>
                           <div class="ms-3">
-                             <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
+                             <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Emma Smith</a>
                              <span class="text-muted fs-7 mb-1">5 Hours</span>
                           </div>
                        </div>
                        <div class="p-5 rounded bg-light-info text-gray-900 fw-semibold mw-lg-400px text-start" data-kt-element="message-text">Company BBQ to celebrate the last quater achievements and goals. Food and drinks provided</div>
                     </div>
-                 </div>
-                 <div class="d-flex justify-content-end mb-10 d-none" data-kt-element="template-out">
-                    <div class="d-flex flex-column align-items-end">
-                       <div class="d-flex align-items-center mb-2">
-                          <div class="me-3">
-                             <span class="text-muted fs-7 mb-1">Just now</span>
-                             <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary ms-1">You</a>
-                          </div>
-                          <div class="symbol symbol-35px symbol-circle">
-                             <img alt="Pic" src="" />
-                          </div>
-                       </div>
-                       <div class="p-5 rounded bg-light-primary text-gray-900 fw-semibold mw-lg-400px text-end" data-kt-element="message-text"></div>
-                    </div>
-                 </div>
-                 <div class="d-flex justify-content-start mb-10 d-none" data-kt-element="template-in">
-                    <div class="d-flex flex-column align-items-start">
-                       <div class="d-flex align-items-center mb-2">
-                          <div class="symbol symbol-35px symbol-circle">
-                             <img alt="Pic" src="" />
-                          </div>
-                          <div class="ms-3">
-                             <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
-                             <span class="text-muted fs-7 mb-1">Just now</span>
-                          </div>
-                       </div>
-                       <div class="p-5 rounded bg-light-info text-gray-900 fw-semibold mw-lg-400px text-start" data-kt-element="message-text">Right before vacation season we have the next Big Deal for you.</div>
-                    </div>
-                 </div>
+                 </div> 
               </div>
            </div>
            <div class="card-footer pt-4" id="kt_drawer_chat_messenger_footer">
@@ -222,7 +130,5 @@
         </div>
     </div>
 </template>
-<script setup> 
-   import {ref} from 'vue';
-   const showSignOutSubMenu = ref(false);
+<script setup>  
 </script>

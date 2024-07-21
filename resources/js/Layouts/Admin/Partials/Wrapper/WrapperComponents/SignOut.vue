@@ -1,15 +1,13 @@
-<template>
-    <!-- sign out -->
+<template> 
     <div class="me-3">
-        <div class="btn btn-icon btn-color-gray-700 btn-active-color-primary btn-outline bg-transparent w-40px h-40px" @click="showSignOutSubMenu = !showSignOutSubMenu">
+        <div class="btn btn-icon btn-color-gray-700 btn-active-color-primary btn-outline bg-transparent w-40px h-40px" data-kt-menu-trigger="{default:'click', lg: 'click'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
             <i class="ki-duotone ki-user fs-1">
             <span class="path1"></span>
             <span class="path2"></span>
             </i>
-        </div>
-        <!-- custom-style-sign-out -->
+        </div> 
         <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px position-absolute"
-        data-kt-menu="true" style="margin-left:-234px;" :class="{'show' : showSignOutSubMenu}">
+        data-kt-menu="true">
             <div class="menu-item px-3">
                 <div class="menu-content d-flex align-items-center px-3">
                 <div class="symbol symbol-50px me-5">
@@ -124,11 +122,9 @@
             <div class="menu-item px-5">
                 <a href="authentication/layouts/corporate/sign-in.html" class="menu-link px-5">Sign Out</a>
             </div>
-        </div>
-        <!-- end sign out -->  
+        </div> 
     </div>      
 </template>
 <script setup> 
-import {ref} from 'vue';
-const showSignOutSubMenu = ref(false);
+import {ref} from 'vue'; 
 </script>
