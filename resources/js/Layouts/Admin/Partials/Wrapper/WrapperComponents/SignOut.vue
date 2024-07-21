@@ -9,7 +9,7 @@
         </div>
         <!-- custom-style-sign-out -->
         <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px position-absolute"
-        data-kt-menu="true" style="margin-left:-234px;">
+        data-kt-menu="true" style="margin-left:-234px;" :class="{'show' : showSignOutSubMenu}">
             <div class="menu-item px-3">
                 <div class="menu-content d-flex align-items-center px-3">
                 <div class="symbol symbol-50px me-5">
@@ -130,5 +130,5 @@
 </template>
 <script setup> 
 import {ref} from 'vue';
-const showSignOutMenu = ref(false);
+const showSignOutSubMenu = ref(false);
 </script>

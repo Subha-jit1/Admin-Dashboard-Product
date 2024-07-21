@@ -10,7 +10,7 @@
             <span class="bullet bullet-dot bg-primary h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink"></span>
         </div>
         <!-- custom-style-notification -->
-        <div class="menu menu-sub menu-sub-dropdown menu-column w-350px w-lg-375px position-absolute" data-kt-menu="true" id="kt_menu_notifications" style="margin-left:-320px;" :class="{'show' : showNotification}">
+        <div class="menu menu-sub menu-sub-dropdown menu-column w-350px w-lg-375px position-absolute ml-reverse-333px mt-1px" data-kt-menu="true" id="kt_menu_notifications" :class="{'show' : showNotification}">
             <div class="d-flex flex-column bgi-no-repeat rounded-top"
             style="background-image:url('/admin_assets/media/images/bg/notification-bg.jpg')">
             <h3 class="text-white fw-semibold px-9 mt-10 mb-6">Notifications
@@ -18,13 +18,9 @@
             </h3>
             <ul class="nav nav-line-tabs nav-line-tabs-2x nav-stretch fw-semibold px-9">
                 <li class="nav-item">
-                    <a class="nav-link text-white opacity-75 opacity-state-100 pb-4" data-bs-toggle="tab"
+                    <a class="nav-link text-white opacity-75 opacity-state-100 pb-4 active" data-bs-toggle="tab"
                         href="#kt_topbar_notifications_1">Alerts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white opacity-75 opacity-state-100 pb-4 active"
-                        data-bs-toggle="tab" href="#kt_topbar_notifications_2">Updates</a>
-                </li>
+                </li> 
                 <li class="nav-item">
                     <a class="nav-link text-white opacity-75 opacity-state-100 pb-4" data-bs-toggle="tab"
                         href="#kt_topbar_notifications_3">Logs</a>
@@ -32,7 +28,7 @@
             </ul>
             </div>
             <div class="tab-content">
-            <div class="tab-pane fade" id="kt_topbar_notifications_1" role="tabpanel">
+            <div class="tab-pane fade show active" id="kt_topbar_notifications_1" role="tabpanel">
                 <div class="scroll-y mh-325px my-5 px-8">
                     <div class="d-flex flex-stack py-4">
                         <div class="d-flex align-items-center">
@@ -186,23 +182,7 @@
                         <span class="path2"></span>
                         </i></a>
                 </div>
-            </div>
-            <div class="tab-pane fade show active" id="kt_topbar_notifications_2" role="tabpanel">
-                <div class="d-flex flex-column px-9">
-                    <div class="pt-10 pb-0">
-                        <h3 class="text-gray-900 text-center fw-bold">Get Pro Access</h3>
-                        <div class="text-center text-gray-600 fw-semibold pt-1">Outlines keep you honest. They
-                        stoping you from amazing poorly about drive</div>
-                        <div class="text-center mt-5 mb-9">
-                        <a href="#" class="btn btn-sm btn-primary px-6" data-bs-toggle="modal"
-                            data-bs-target="#kt_modal_upgrade_plan">Upgrade</a>
-                        </div>
-                    </div>
-                    <div class="text-center px-4">
-                        <img class="mw-100 mh-200px" alt="image" src="" />
-                    </div>
-                </div>
-            </div>
+            </div> 
             <div class="tab-pane fade" id="kt_topbar_notifications_3" role="tabpanel">
                 <div class="scroll-y mh-325px my-5 px-8">
                     <div class="d-flex flex-stack py-4">
@@ -311,3 +291,11 @@
 import {ref} from 'vue';
 const showNotification = ref(false); 
 </script>
+<style scoped>
+    .ml-reverse-333px{
+        margin-left:-333px
+    }
+    .mt-1px{
+        margin-top:1px
+    }
+</style>

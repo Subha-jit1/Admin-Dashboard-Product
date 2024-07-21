@@ -9,4 +9,4 @@
     import SidebarLogo from './SidebarLogo.vue';
     import SidebarMenu from './SidebarMenu.vue';
     import SidebarFooter from './SidebarFooter.vue';
-</script>
+</script> 
