@@ -3,7 +3,7 @@
         <div class="col-xl-4">
             <div class="row mb-5 mb-xl-8 g-5 g-xl-8">
                 <div class="col-6">
-                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="account/overview.html">
+                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="javascript:void(0);">
                     <i class="ki-duotone ki-gift fs-2tx mb-5 ms-n1 text-gray-500">
                     <span class="path1"></span>
                     <span class="path2"></span>
@@ -14,7 +14,7 @@
                     </a>
                 </div>
                 <div class="col-6">
-                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="account/statements.html">
+                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="javascript:void(0);">
                     <i class="ki-duotone ki-technology-2 fs-2tx mb-5 ms-n1 text-gray-500">
                     <span class="path1"></span>
                     <span class="path2"></span>
@@ -23,7 +23,7 @@
                     </a>
                 </div>
                 <div class="col-6">
-                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="account/referrals.html">
+                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="javascript:void(0);">
                     <i class="ki-duotone ki-fingerprint-scanning fs-2tx mb-5 ms-n1 text-gray-500">
                     <span class="path1"></span>
                     <span class="path2"></span>
@@ -35,7 +35,7 @@
                     </a>
                 </div>
                 <div class="col-6">
-                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="apps/customers/view.html">
+                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="javascript:void(0);">
                     <i class="ki-duotone ki-abstract-26 fs-2tx mb-5 ms-n1 text-gray-500">
                     <span class="path1"></span>
                     <span class="path2"></span>
@@ -44,7 +44,7 @@
                     </a>
                 </div>
                 <div class="col-6">
-                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="apps/projects/project.html">
+                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="javascript:void(0);">
                     <i class="ki-duotone ki-basket fs-2tx mb-5 ms-n1 text-gray-500">
                     <span class="path1"></span>
                     <span class="path2"></span>
@@ -55,7 +55,7 @@
                     </a>
                 </div>
                 <div class="col-6">
-                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="apps/projects/users.html">
+                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="javascript:void(0);">
                     <i class="ki-duotone ki-rocket fs-2tx mb-5 ms-n1 text-gray-500">
                     <span class="path1"></span>
                     <span class="path2"></span>
@@ -64,7 +64,7 @@
                     </a>
                 </div>
                 <div class="col-6">
-                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="apps/customers/list.html">
+                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="javascript:void(0);">
                     <i class="ki-duotone ki-abstract-36 fs-2tx mb-5 ms-n1 text-gray-500">
                     <span class="path1"></span>
                     <span class="path2"></span>
@@ -73,7 +73,7 @@
                     </a>
                 </div>
                 <div class="col-6">
-                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="apps/chat/private.html">
+                    <a class="card flex-column justfiy-content-start align-items-start text-start w-100 text-gray-800 text-hover-primary p-10" href="javascript:void(0);">
                     <i class="ki-duotone ki-timer fs-2tx mb-5 ms-n1 text-gray-500">
                     <span class="path1"></span>
                     <span class="path2"></span>
@@ -168,7 +168,7 @@
                             <i class="fa fa-genderless text-danger fs-1"></i>
                         </div>
                         <div class="timeline-content fw-bold text-gray-800 ps-3">Make deposit 
-                            <a href="#" class="text-primary">USD 700</a>. to ESL
+                            <a href="javascript:void(0);" class="text-primary">USD 700</a>. to ESL
                         </div>
                         </div>
                         <div class="timeline-item">
@@ -184,7 +184,7 @@
                             <i class="fa fa-genderless text-danger fs-1"></i>
                         </div>
                         <div class="timeline-content fw-semibold text-gray-800 ps-3">New order placed 
-                            <a href="#" class="text-primary">#XF-2356</a>.
+                            <a href="javascript:void(0);" class="text-primary">#XF-2356</a>.
                         </div>
                         </div>
                         <div class="timeline-item">
@@ -200,7 +200,7 @@
                             <i class="fa fa-genderless text-danger fs-1"></i>
                         </div>
                         <div class="timeline-content fw-semibold text-gray-800 ps-3">New order placed 
-                            <a href="#" class="text-primary">#XF-2356</a>.
+                            <a href="javascript:void(0);" class="text-primary">#XF-2356</a>.
                         </div>
                         </div>
                         <div class="timeline-item">
@@ -233,10 +233,10 @@
                             <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Payments</div>
                         </div>
                         <div class="menu-item px-3">
-                            <a href="#" class="menu-link px-3">Create Invoice</a>
+                            <a href="javascript:void(0);" class="menu-link px-3">Create Invoice</a>
                         </div>
                         <div class="menu-item px-3">
-                            <a href="#" class="menu-link flex-stack px-3">Create Payment 
+                            <a href="javascript:void(0);" class="menu-link flex-stack px-3">Create Payment 
                             <span class="ms-2" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference">
                             <i class="ki-duotone ki-information fs-6">
                             <span class="path1"></span>
@@ -246,22 +246,22 @@
                             </span></a>
                         </div>
                         <div class="menu-item px-3">
-                            <a href="#" class="menu-link px-3">Generate Bill</a>
+                            <a href="javascript:void(0);" class="menu-link px-3">Generate Bill</a>
                         </div>
                         <div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-                            <a href="#" class="menu-link px-3">
+                            <a href="javascript:void(0);" class="menu-link px-3">
                             <span class="menu-title">Subscription</span>
                             <span class="menu-arrow"></span>
                             </a>
                             <div class="menu-sub menu-sub-dropdown w-175px py-4">
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">Plans</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Plans</a>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">Billing</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Billing</a>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">Statements</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Statements</a>
                                 </div>
                                 <div class="separator my-2"></div>
                                 <div class="menu-item px-3">
@@ -275,7 +275,7 @@
                             </div>
                         </div>
                         <div class="menu-item px-3 my-1">
-                            <a href="#" class="menu-link px-3">Settings</a>
+                            <a href="javascript:void(0);" class="menu-link px-3">Settings</a>
                         </div>
                         </div>
                     </div>
@@ -289,7 +289,7 @@
                         </div>
                         <div class="d-flex align-items-center flex-row-fluid flex-wrap">
                         <div class="flex-grow-1 me-2">
-                            <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Top Authors</a>
+                            <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fs-6 fw-bold">Top Authors</a>
                             <span class="text-muted fw-semibold d-block fs-7">Mark, Rowling, Esther</span>
                         </div>
                         <span class="badge badge-light fw-bold my-2">+82$</span>
@@ -303,7 +303,7 @@
                         </div>
                         <div class="d-flex align-items-center flex-row-fluid flex-wrap">
                         <div class="flex-grow-1 me-2">
-                            <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Popular Authors</a>
+                            <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fs-6 fw-bold">Popular Authors</a>
                             <span class="text-muted fw-semibold d-block fs-7">Randy, Steve, Mike</span>
                         </div>
                         <span class="badge badge-light fw-bold my-2">+280$</span>
@@ -317,7 +317,7 @@
                         </div>
                         <div class="d-flex align-items-center flex-row-fluid flex-wrap">
                         <div class="flex-grow-1 me-2">
-                            <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">New Users</a>
+                            <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fs-6 fw-bold">New Users</a>
                             <span class="text-muted fw-semibold d-block fs-7">John, Pat, Jimmy</span>
                         </div>
                         <span class="badge badge-light fw-bold my-2">+4500$</span>
@@ -331,7 +331,7 @@
                         </div>
                         <div class="d-flex align-items-center flex-row-fluid flex-wrap">
                         <div class="flex-grow-1 me-2">
-                            <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Active Customers</a>
+                            <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fs-6 fw-bold">Active Customers</a>
                             <span class="text-muted fw-semibold d-block fs-7">Mark, Rowling, Esther</span>
                         </div>
                         <span class="badge badge-light fw-bold my-2">+686$</span>
@@ -345,7 +345,7 @@
                         </div>
                         <div class="d-flex align-items-center flex-row-fluid flex-wrap">
                         <div class="flex-grow-1 me-2">
-                            <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Bestseller Theme</a>
+                            <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fs-6 fw-bold">Bestseller Theme</a>
                             <span class="text-muted fw-semibold d-block fs-7">Disco, Retro, Sports</span>
                         </div>
                         <span class="badge badge-light fw-bold my-2">+726$</span>
@@ -359,7 +359,7 @@
                         </div>
                         <div class="d-flex align-items-center flex-row-fluid flex-wrap">
                         <div class="flex-grow-1 me-2">
-                            <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Fox Broker App</a>
+                            <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fs-6 fw-bold">Fox Broker App</a>
                             <span class="text-muted fw-semibold d-block fs-7">Finance, Corporate, Apps</span>
                         </div>
                         <span class="badge badge-light fw-bold my-2">+145$</span>
@@ -401,10 +401,10 @@
                                     <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Payments</div>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">Create Invoice</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Create Invoice</a>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link flex-stack px-3">Create Payment 
+                                    <a href="javascript:void(0);" class="menu-link flex-stack px-3">Create Payment 
                                     <span class="ms-2" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference">
                                     <i class="ki-duotone ki-information fs-6">
                                     <span class="path1"></span>
@@ -414,22 +414,22 @@
                                     </span></a>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">Generate Bill</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Generate Bill</a>
                                 </div>
                                 <div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-                                    <a href="#" class="menu-link px-3">
+                                    <a href="javascript:void(0);" class="menu-link px-3">
                                     <span class="menu-title">Subscription</span>
                                     <span class="menu-arrow"></span>
                                     </a>
                                     <div class="menu-sub menu-sub-dropdown w-175px py-4">
                                     <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Plans</a>
+                                        <a href="javascript:void(0);" class="menu-link px-3">Plans</a>
                                     </div>
                                     <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Billing</a>
+                                        <a href="javascript:void(0);" class="menu-link px-3">Billing</a>
                                     </div>
                                     <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Statements</a>
+                                        <a href="javascript:void(0);" class="menu-link px-3">Statements</a>
                                     </div>
                                     <div class="separator my-2"></div>
                                     <div class="menu-item px-3">
@@ -443,7 +443,7 @@
                                     </div>
                                 </div>
                                 <div class="menu-item px-3 my-1">
-                                    <a href="#" class="menu-link px-3">Settings</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Settings</a>
                                 </div>
                             </div>
                         </div>
@@ -459,7 +459,7 @@
                                     </div>
                                     </div>
                                     <div>
-                                    <a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">Top Authors</a>
+                                    <a href="javascript:void(0);" class="fs-6 text-gray-800 text-hover-primary fw-bold">Top Authors</a>
                                     <div class="fs-7 text-muted fw-semibold mt-1">Ricky Hunt, Sandra Trepp</div>
                                     </div>
                                 </div>
@@ -473,7 +473,7 @@
                                     </div>
                                     </div>
                                     <div>
-                                    <a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">Top Sales</a>
+                                    <a href="javascript:void(0);" class="fs-6 text-gray-800 text-hover-primary fw-bold">Top Sales</a>
                                     <div class="fs-7 text-muted fw-semibold mt-1">PitStop Emails</div>
                                     </div>
                                 </div>
@@ -487,7 +487,7 @@
                                     </div>
                                     </div>
                                     <div class="py-1">
-                                    <a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">Top Engagement</a>
+                                    <a href="javascript:void(0);" class="fs-6 text-gray-800 text-hover-primary fw-bold">Top Engagement</a>
                                     <div class="fs-7 text-muted fw-semibold mt-1">KT.com</div>
                                     </div>
                                 </div>
@@ -515,10 +515,10 @@
                                     <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Payments</div>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">Create Invoice</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Create Invoice</a>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link flex-stack px-3">Create Payment 
+                                    <a href="javascript:void(0);" class="menu-link flex-stack px-3">Create Payment 
                                     <span class="ms-2" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference">
                                     <i class="ki-duotone ki-information fs-6">
                                     <span class="path1"></span>
@@ -528,22 +528,22 @@
                                     </span></a>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">Generate Bill</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Generate Bill</a>
                                 </div>
                                 <div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-                                    <a href="#" class="menu-link px-3">
+                                    <a href="javascript:void(0);" class="menu-link px-3">
                                     <span class="menu-title">Subscription</span>
                                     <span class="menu-arrow"></span>
                                     </a>
                                     <div class="menu-sub menu-sub-dropdown w-175px py-4">
                                     <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Plans</a>
+                                        <a href="javascript:void(0);" class="menu-link px-3">Plans</a>
                                     </div>
                                     <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Billing</a>
+                                        <a href="javascript:void(0);" class="menu-link px-3">Billing</a>
                                     </div>
                                     <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Statements</a>
+                                        <a href="javascript:void(0);" class="menu-link px-3">Statements</a>
                                     </div>
                                     <div class="separator my-2"></div>
                                     <div class="menu-item px-3">
@@ -557,7 +557,7 @@
                                     </div>
                                 </div>
                                 <div class="menu-item px-3 my-1">
-                                    <a href="#" class="menu-link px-3">Settings</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Settings</a>
                                 </div>
                             </div>
                         </div>
@@ -569,7 +569,7 @@
                                 <input class="form-check-input" type="checkbox" value="" />
                             </div>
                             <div class="flex-grow-1">
-                                <a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">Create FireStone Logo</a>
+                                <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fw-bold fs-6">Create FireStone Logo</a>
                                 <span class="text-muted fw-semibold d-block">Due in 2 Days</span>
                             </div>
                             <span class="badge badge-light-success fs-8 fw-bold">New</span>
@@ -580,7 +580,7 @@
                                 <input class="form-check-input" type="checkbox" value="" />
                             </div>
                             <div class="flex-grow-1">
-                                <a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">Stakeholder Meeting</a>
+                                <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fw-bold fs-6">Stakeholder Meeting</a>
                                 <span class="text-muted fw-semibold d-block">Due in 3 Days</span>
                             </div>
                             <span class="badge badge-light-primary fs-8 fw-bold">New</span>
@@ -591,7 +591,7 @@
                                 <input class="form-check-input" type="checkbox" value="" />
                             </div>
                             <div class="flex-grow-1">
-                                <a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">Scoping & Estimations</a>
+                                <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fw-bold fs-6">Scoping & Estimations</a>
                                 <span class="text-muted fw-semibold d-block">Due in 5 Days</span>
                             </div>
                             <span class="badge badge-light-warning fs-8 fw-bold">New</span>
@@ -602,7 +602,7 @@
                                 <input class="form-check-input" type="checkbox" value="" />
                             </div>
                             <div class="flex-grow-1">
-                                <a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">KPI App Showcase</a>
+                                <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fw-bold fs-6">KPI App Showcase</a>
                                 <span class="text-muted fw-semibold d-block">Due in 2 Days</span>
                             </div>
                             <span class="badge badge-light-primary fs-8 fw-bold">New</span>
@@ -613,7 +613,7 @@
                                 <input class="form-check-input" type="checkbox" value="" />
                             </div>
                             <div class="flex-grow-1">
-                                <a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">Project Meeting</a>
+                                <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fw-bold fs-6">Project Meeting</a>
                                 <span class="text-muted fw-semibold d-block">Due in 12 Days</span>
                             </div>
                             <span class="badge badge-light-danger fs-8 fw-bold">New</span>
@@ -624,7 +624,7 @@
                                 <input class="form-check-input" type="checkbox" value="" />
                             </div>
                             <div class="flex-grow-1">
-                                <a href="#" class="text-gray-800 text-hover-primary fw-bold fs-6">Customers Update</a>
+                                <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fw-bold fs-6">Customers Update</a>
                                 <span class="text-muted fw-semibold d-block">Due in 1 week</span>
                             </div>
                             <span class="badge badge-light-success fs-8 fw-bold">New</span>
@@ -642,13 +642,13 @@
                     <div class="card-toolbar">
                         <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-secondary fw-bold px-4 me-1 active" data-bs-toggle="tab" href="#kt_table_widget_5_tab_1">Month</a>
+                            <a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-secondary fw-bold px-4 me-1 active" data-bs-toggle="tab" href="javascript:void(0);">Month</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-secondary fw-bold px-4 me-1" data-bs-toggle="tab" href="#kt_table_widget_5_tab_2">Week</a>
+                            <a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-secondary fw-bold px-4 me-1" data-bs-toggle="tab" href="javascript:void(0);">Week</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-secondary fw-bold px-4" data-bs-toggle="tab" href="#kt_table_widget_5_tab_3">Day</a>
+                            <a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-secondary fw-bold px-4" data-bs-toggle="tab" href="javascript:void(0);">Day</a>
                         </li>
                         </ul>
                     </div>
@@ -677,7 +677,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Brad Simmons</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Brad Simmons</a>
                                         <span class="text-muted fw-semibold d-block">Movie Creator</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">React, HTML</td>
@@ -685,7 +685,7 @@
                                         <span class="badge badge-light-success">Approved</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -702,7 +702,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Popular Authors</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Popular Authors</a>
                                         <span class="text-muted fw-semibold d-block">Most Successful</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">Python, MySQL</td>
@@ -710,7 +710,7 @@
                                         <span class="badge badge-light-warning">In Progress</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -727,7 +727,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">New Users</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">New Users</a>
                                         <span class="text-muted fw-semibold d-block">Awesome Users</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">Laravel,Metronic</td>
@@ -735,7 +735,7 @@
                                         <span class="badge badge-light-primary">Success</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -752,7 +752,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Active Customers</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Active Customers</a>
                                         <span class="text-muted fw-semibold d-block">Movie Creator</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">AngularJS, C#</td>
@@ -760,7 +760,7 @@
                                         <span class="badge badge-light-danger">Rejected</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -777,7 +777,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Bestseller Theme</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Bestseller Theme</a>
                                         <span class="text-muted fw-semibold d-block">Best Customers</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">ReactJS, Ruby</td>
@@ -785,7 +785,7 @@
                                         <span class="badge badge-light-warning">In Progress</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -819,7 +819,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Brad Simmons</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Brad Simmons</a>
                                         <span class="text-muted fw-semibold d-block">Movie Creator</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">React, HTML</td>
@@ -827,7 +827,7 @@
                                         <span class="badge badge-light-success">Approved</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -844,7 +844,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Popular Authors</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Popular Authors</a>
                                         <span class="text-muted fw-semibold d-block">Most Successful</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">Python, MySQL</td>
@@ -852,7 +852,7 @@
                                         <span class="badge badge-light-warning">In Progress</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -869,7 +869,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Active Customers</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Active Customers</a>
                                         <span class="text-muted fw-semibold d-block">Movie Creator</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">AngularJS, C#</td>
@@ -877,7 +877,7 @@
                                         <span class="badge badge-light-danger">Rejected</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -911,7 +911,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Bestseller Theme</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Bestseller Theme</a>
                                         <span class="text-muted fw-semibold d-block">Best Customers</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">ReactJS, Ruby</td>
@@ -919,7 +919,7 @@
                                         <span class="badge badge-light-warning">In Progress</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -936,7 +936,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Active Customers</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Active Customers</a>
                                         <span class="text-muted fw-semibold d-block">Movie Creator</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">AngularJS, C#</td>
@@ -944,7 +944,7 @@
                                         <span class="badge badge-light-danger">Rejected</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -961,7 +961,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">New Users</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">New Users</a>
                                         <span class="text-muted fw-semibold d-block">Awesome Users</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">Laravel,Metronic</td>
@@ -969,7 +969,7 @@
                                         <span class="badge badge-light-primary">Success</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -986,7 +986,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Popular Authors</a>
+                                        <a href="javascript:void(0);" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Popular Authors</a>
                                         <span class="text-muted fw-semibold d-block">Most Successful</span>
                                     </td>
                                     <td class="text-end text-muted fw-bold">Python, MySQL</td>
@@ -994,7 +994,7 @@
                                         <span class="badge badge-light-warning">In Progress</span>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
                                         <i class="ki-duotone ki-arrow-right fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
@@ -1082,7 +1082,7 @@
                                 </div>
                                 <div class="d-flex align-items-center flex-row-fluid flex-wrap">
                                     <div class="flex-grow-1 me-2">
-                                    <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Top Authors</a>
+                                    <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fs-6 fw-bold">Top Authors</a>
                                     <span class="text-muted fw-semibold d-block fs-7">Mark, Rowling, Esther</span>
                                     </div>
                                     <span class="badge badge-light fw-bold my-2">+82$</span>
@@ -1096,7 +1096,7 @@
                                 </div>
                                 <div class="d-flex align-items-center flex-row-fluid flex-wrap">
                                     <div class="flex-grow-1 me-2">
-                                    <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">Popular Authors</a>
+                                    <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fs-6 fw-bold">Popular Authors</a>
                                     <span class="text-muted fw-semibold d-block fs-7">Randy, Steve, Mike</span>
                                     </div>
                                     <span class="badge badge-light fw-bold my-2">+280$</span>
@@ -1110,7 +1110,7 @@
                                 </div>
                                 <div class="d-flex align-items-center flex-row-fluid flex-wrap">
                                     <div class="flex-grow-1 me-2">
-                                    <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold">New Users</a>
+                                    <a href="javascript:void(0);" class="text-gray-800 text-hover-primary fs-6 fw-bold">New Users</a>
                                     <span class="text-muted fw-semibold d-block fs-7">John, Pat, Jimmy</span>
                                     </div>
                                     <span class="badge badge-light fw-bold my-2">+4500$</span>
@@ -1139,10 +1139,10 @@
                                     <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Payments</div>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">Create Invoice</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Create Invoice</a>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link flex-stack px-3">Create Payment 
+                                    <a href="javascript:void(0);" class="menu-link flex-stack px-3">Create Payment 
                                     <span class="ms-2" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference">
                                     <i class="ki-duotone ki-information fs-6">
                                     <span class="path1"></span>
@@ -1152,22 +1152,22 @@
                                     </span></a>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">Generate Bill</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Generate Bill</a>
                                 </div>
                                 <div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-                                    <a href="#" class="menu-link px-3">
+                                    <a href="javascript:void(0);" class="menu-link px-3">
                                     <span class="menu-title">Subscription</span>
                                     <span class="menu-arrow"></span>
                                     </a>
                                     <div class="menu-sub menu-sub-dropdown w-175px py-4">
                                     <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Plans</a>
+                                        <a href="javascript:void(0);" class="menu-link px-3">Plans</a>
                                     </div>
                                     <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Billing</a>
+                                        <a href="javascript:void(0);" class="menu-link px-3">Billing</a>
                                     </div>
                                     <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Statements</a>
+                                        <a href="javascript:void(0);" class="menu-link px-3">Statements</a>
                                     </div>
                                     <div class="separator my-2"></div>
                                     <div class="menu-item px-3">
@@ -1181,7 +1181,7 @@
                                     </div>
                                 </div>
                                 <div class="menu-item px-3 my-1">
-                                    <a href="#" class="menu-link px-3">Settings</a>
+                                    <a href="javascript:void(0);" class="menu-link px-3">Settings</a>
                                 </div>
                             </div>
                         </div>

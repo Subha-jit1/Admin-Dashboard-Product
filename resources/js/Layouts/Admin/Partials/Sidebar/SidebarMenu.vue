@@ -165,7 +165,7 @@
                   </div>
                   <div class="menu-item">
                      <div class="menu-content">
-                        <a class="btn btn-flex btn-color-primary d-flex flex-stack fs-base p-0 ms-2 mb-2 toggle collapsible collapsed" data-bs-toggle="collapse" href="#" data-kt-toggle-text="Show Less">
+                        <a class="btn btn-flex btn-color-primary d-flex flex-stack fs-base p-0 ms-2 mb-2 toggle collapsible collapsed" data-bs-toggle="collapse" href="#kt_app_sidebar_menu_dashboards_collapse" data-kt-toggle-text="Show Less">
                         <span data-kt-toggle-text-target="true">Show 12 More</span>
                         <i class="ki-duotone ki-minus-square toggle-on fs-2 me-0">
                         <span class="path1"></span>

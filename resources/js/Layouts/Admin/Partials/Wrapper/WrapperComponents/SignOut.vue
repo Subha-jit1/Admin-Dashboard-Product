@@ -17,16 +17,16 @@
                     <div class="fw-bold d-flex align-items-center fs-5">Max Smith
                         <span class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">Pro</span>
                     </div>
-                    <a href="#" class="fw-semibold text-muted text-hover-primary fs-7">max@kt.com</a>
+This video is for                    <a href="javascript:void(0);" class="fw-semibold text-muted text-hover-primary fs-7">max@kt.com</a>
                 </div>
                 </div>
             </div>
             <div class="separator my-2"></div>
             <div class="menu-item px-5">
-                <a href="account/overview.html" class="menu-link px-5">My Profile</a>
+                <a href="javascript:void(0);" class="menu-link px-5">My Profile</a>
             </div>
             <div class="menu-item px-5">
-                <a href="apps/projects/list.html" class="menu-link px-5">
+                <a href="javascript:void(0);" class="menu-link px-5">
                 <span class="menu-text">My Projects</span>
                 <span class="menu-badge">
                     <span class="badge badge-light-danger badge-circle fw-bold fs-7">3</span>
@@ -35,22 +35,22 @@
             </div>
             <div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
                 data-kt-menu-placement="right-start" data-kt-menu-offset="-15px, 0">
-                <a href="#" class="menu-link px-5">
+                <a href="javascript:void(0);" class="menu-link px-5">
                 <span class="menu-title">My Subscription</span>
                 <span class="menu-arrow"></span>
                 </a>
                 <div class="menu-sub menu-sub-dropdown w-175px py-4">
                 <div class="menu-item px-3">
-                    <a href="account/referrals.html" class="menu-link px-5">Referrals</a>
+                    <a href="javascript:void(0);" class="menu-link px-5">Referrals</a>
                 </div>
                 <div class="menu-item px-3">
-                    <a href="account/billing.html" class="menu-link px-5">Billing</a>
+                    <a href="javascript:void(0);" class="menu-link px-5">Billing</a>
                 </div>
                 <div class="menu-item px-3">
-                    <a href="account/statements.html" class="menu-link px-5">Payments</a>
+                    <a href="javascript:void(0);" class="menu-link px-5">Payments</a>
                 </div>
                 <div class="menu-item px-3">
-                    <a href="account/statements.html" class="menu-link d-flex flex-stack px-5">Statements
+                    <a href="javascript:void(0);" class="menu-link d-flex flex-stack px-5">Statements
                         <span class="ms-2 lh-0" data-bs-toggle="tooltip" title="View your statements">
                             <i class="ki-duotone ki-information-5 fs-5">
                             <span class="path1"></span>
@@ -72,12 +72,12 @@
                 </div>
             </div>
             <div class="menu-item px-5">
-                <a href="account/statements.html" class="menu-link px-5">My Statements</a>
+                <a href="javascript:void(0);" class="menu-link px-5">My Statements</a>
             </div>
             <div class="separator my-2"></div>
             <div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
                 data-kt-menu-placement="right-start" data-kt-menu-offset="-15px, 0">
-                <a href="#" class="menu-link px-5">
+                <a href="javascript:void(0);" class="menu-link px-5">
                 <span class="menu-title position-relative">Language
                     <span
                         class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">English
@@ -85,31 +85,31 @@
                 </a>
                 <div class="menu-sub menu-sub-dropdown w-175px py-4">
                 <div class="menu-item px-3">
-                    <a href="account/settings.html" class="menu-link d-flex px-5 active">
+                    <a href="javascript:void(0);" class="menu-link d-flex px-5 active">
                         <span class="symbol symbol-20px me-4">
                             <img class="rounded-1" src="" alt="" />
                         </span>English</a>
                 </div>
                 <div class="menu-item px-3">
-                    <a href="account/settings.html" class="menu-link d-flex px-5">
+                    <a href="javascript:void(0);" class="menu-link d-flex px-5">
                         <span class="symbol symbol-20px me-4">
                             <img class="rounded-1" src="" alt="" />
                         </span>Spanish</a>
                 </div>
                 <div class="menu-item px-3">
-                    <a href="account/settings.html" class="menu-link d-flex px-5">
+                    <a href="javascript:void(0);" class="menu-link d-flex px-5">
                         <span class="symbol symbol-20px me-4">
                             <img class="rounded-1" src="" alt="" />
                         </span>German</a>
                 </div>
                 <div class="menu-item px-3">
-                    <a href="account/settings.html" class="menu-link d-flex px-5">
+                    <a href="javascript:void(0);" class="menu-link d-flex px-5">
                         <span class="symbol symbol-20px me-4">
                             <img class="rounded-1" src="" alt="" />
                         </span>Japanese</a>
                 </div>
                 <div class="menu-item px-3">
-                    <a href="account/settings.html" class="menu-link d-flex px-5">
+                    <a href="javascript:void(0);" class="menu-link d-flex px-5">
                         <span class="symbol symbol-20px me-4">
                             <img class="rounded-1" src="" alt="" />
                         </span>French</a>
@@ -117,10 +117,10 @@
                 </div>
             </div>
             <div class="menu-item px-5 my-1">
-                <a href="account/settings.html" class="menu-link px-5">Account Settings</a>
+                <a href="javascript:void(0);" class="menu-link px-5">Account Settings</a>
             </div>
             <div class="menu-item px-5">
-                <a href="authentication/layouts/corporate/sign-in.html" class="menu-link px-5">Sign Out</a>
+                <a href="javascript:void(0);" class="menu-link px-5">Sign Out</a>
             </div>
         </div> 
     </div>      
