@@ -1,5 +1,5 @@
 <template>
-    <div class="aside-footer flex-column-auto pb-5 pb-lg-10" id="kt_aside_footer">
+    <div class="aside-footer d-flex justify-content-center flex-column-auto mb-10 pb-lg-10 mr-13" id="kt_aside_footer">
         <div class="d-flex flex-center w-100 scroll-px" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-dismiss="click" title="Quick actions">
            <button type="button" class="btn btn-custom" data-kt-menu-trigger="click" data-kt-menu-overflow="true" data-kt-menu-placement="top-start">
            <i class="ki-duotone ki-entrance-left fs-2x">
@@ -50,3 +50,8 @@
 </template>
 <script setup> 
 </script>
+<style scoped> 
+   .mr-13{
+      margin-right: 12px;
+   }
+</style>
