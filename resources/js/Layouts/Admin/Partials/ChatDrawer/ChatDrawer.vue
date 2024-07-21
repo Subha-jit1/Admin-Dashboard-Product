@@ -4,7 +4,7 @@
            <div class="card-header pe-5" id="kt_drawer_chat_messenger_header">
               <div class="card-title"> 
                  <td class="d-flex align-items-center">
-                  <!--begin:: Avatar -->
+                  <!--begin:: Avatars -->
                   <div class="symbol symbol-circle symbol-30px overflow-hidden me-2">
                      <a href="#">
                         <div class="symbol-label">
