@@ -12,4 +12,5 @@
   <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
   <script src="{{ asset('admin_assets/js/scripts.bundle.js') }}"></script>
   <script src="{{ asset('admin_assets/js/plugins.bundle.js') }}"></script> 
+  <script src="{{ asset('admin_assets/js/app.js') }}"></script> 
 </html>

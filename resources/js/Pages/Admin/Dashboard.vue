@@ -1,4 +1,4 @@
-<template>
+<template>  
     <div class="row g-5 g-xl-8">
         <div class="col-xl-4">
             <div class="row mb-5 mb-xl-8 g-5 g-xl-8">
@@ -369,7 +369,7 @@
             </div>
         </div>
         <div class="col-xl-8 ps-xl-12">
-            <div class="card bgi-position-y-bottom bgi-position-x-end bgi-no-repeat bgi-size-cover min-h-250px bg-primary mb-5 mb-xl-8" style="background-position: 100% 50px;background-size: 500px auto;background-image:url('assets/media/misc/city.png')" dir="ltr">
+            <div class="card bgi-position-y-bottom bgi-position-x-end bgi-no-repeat bgi-size-cover min-h-250px bg-primary mb-5 mb-xl-8" style="background-position: 100% 50px;background-size: 500px auto;" dir="ltr">
                 <div class="card-body d-flex flex-column justify-content-center ps-lg-12">
                     <h3 class="text-gray-900 fs-2qx fw-bold mb-7">We are working 
                         <br />to boost lovely mood
