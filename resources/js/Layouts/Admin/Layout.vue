@@ -24,7 +24,7 @@
     import WrapperMobileHeader from './Partials/Wrapper/WrapperMobileHeader.vue';
     import WrapperHeader from './Partials/Wrapper/WrapperHeader.vue';
     import WrapperFooter from './Partials/Wrapper/WrapperFooter.vue';
-    import ChatDrawer from './Partials/ChatDrawer/ChatDrawer.vue'; 
+    import ChatDrawer from './Partials/ChatDrawer/ChatDrawer.vue';  
 
     onMounted(() => {  
         InitKtInstances();
@@ -62,5 +62,5 @@
 <style>
     @import "https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700";
     @import "/public/admin_assets/css/style.bundle.css";
-    @import "/public/admin_assets/css/plugin.bundle.css"; 
+    @import "/public/admin_assets/css/plugins.bundle.css";    
 </style>
