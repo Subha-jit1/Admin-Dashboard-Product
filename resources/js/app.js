@@ -10,10 +10,14 @@
   const AdminLayout = defineAsyncComponent(() =>
     import('./Layouts/Admin/Layout.vue')
   );
+  
+  const AuthLayout = defineAsyncComponent(() =>
+    import('./Layouts/Auth/Layout.vue')
+  );
 
 
   createInertiaApp({
-      resolve: async name => {
+      resolve: async name => {  
         const pages = import.meta.glob('./Pages/**/*.vue', { eager: false })
         let page = await pages[`./Pages/${name}.vue`]()
 
