@@ -13,10 +13,10 @@
                                  <i class="ki-duotone ki-down fs-2 text-muted rotate-180 m-0"></i>
                               </button>
 
-                           <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true" id="kt_auth_lang_menu">
-                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link d-flex px-5" data-kt-lang="Dark"> 
-                                       <i class="ki-duotone ki-moon theme-dark-show fs-1 me-3">
+                           <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4" data-kt-menu="true" id="kt_auth_lang_menu active">
+                                 <div class="menu-item px-3" @click="setThemeMode('dark')">
+                                    <a href="#" class="menu-link d-flex px-5" data-kt-lang="Dark" :class="{'active' : data_bs_theme == 'dark'}"> 
+                                       <i class="ki-duotone ki-moon fs-1 me-3" :class="{'theme-dark-show' : data_bs_theme == 'dark', 'theme-light-show' : data_bs_theme == 'light'}">
                                           <span class="path1"></span>
                                           <span class="path2"></span>
                                           <span class="path3"></span>
@@ -31,9 +31,9 @@
                                        <span data-kt-element="lang-name">Dark</span>
                                     </a>
                                  </div>    
-                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link d-flex px-5" data-kt-lang="Dark"> 
-                                       <i class="ki-duotone ki-night-day theme-dark-show fs-1 me-3">
+                                 <div class="menu-item px-3" @click="setThemeMode('light')">
+                                    <a href="#" class="menu-link d-flex px-5" data-kt-lang="Dark" :class="{'active' : data_bs_theme == 'light'}" > 
+                                       <i class="ki-duotone ki-night-day fs-1 me-3" :class="{'theme-dark-show' : data_bs_theme == 'dark', 'theme-light-show' : data_bs_theme == 'light'}">
                                           <span class="path1"></span>
                                           <span class="path2"></span>
                                           <span class="path3"></span>
@@ -48,9 +48,9 @@
                                        <span data-kt-element="lang-name">Light</span>
                                     </a>
                                  </div>    
-                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link d-flex px-5" data-kt-lang="Dark"> 
-                                       <i class="ki-duotone ki-screen theme-dark-show fs-1 me-3">
+                                 <div class="menu-item px-3"  @click="setThemeMode('system')" >
+                                    <a href="#" class="menu-link d-flex px-5" data-kt-lang="Dark"  :class="{'active' : data_bs_theme == 'system'}"> 
+                                       <i class="ki-duotone ki-screen fs-1 me-3" :class="{'theme-dark-show' : data_bs_theme == 'dark', 'theme-light-show' : data_bs_theme == 'light'}">
                                           <span class="path1"></span>
                                           <span class="path2"></span>
                                           <span class="path3"></span>
@@ -71,12 +71,50 @@
 </template>
 
 <script setup>
-   import {onMounted} from 'vue' ;
+   import {onMounted, ref} from 'vue' ;
    onMounted(() => { 
       KTToggle.createInstances();
       KTScroll.createInstances();
       KTMenu.createInstances();
+      initTheme();
    });
+
+   const data_bs_theme = ref(null); 
+
+   const initTheme = () => {
+        const defaultThemeMode = "light";
+        let themeMode; 
+        if (document.documentElement) {
+            if (document.documentElement.hasAttribute("data-bs-theme")) {
+                themeMode = document.documentElement.getAttribute("data-bs-theme");
+            } else {
+                if (localStorage.getItem("data-bs-theme") !== null) {
+                    themeMode = localStorage.getItem("data-bs-theme");
+                } else {
+                    themeMode = defaultThemeMode;
+                }
+            } 
+            if (themeMode === "system") {
+                themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            } 
+            document.documentElement.setAttribute("data-bs-theme", themeMode); 
+             data_bs_theme.value = themeMode;
+        }
+   };
+ 
+    //methods
+    const setThemeMode = (mode) => {
+        let isSystemTheme = 0;
+        if (mode === "system") {
+            mode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";  
+            isSystemTheme = 1;
+        }
+        document.documentElement.setAttribute("data-bs-theme", mode);
+        data_bs_theme.value = isSystemTheme ?  'system' :  mode;
+        localStorage.setItem("data-bs-theme", mode); 
+    }; 
+
+
 </script>
 <style> 
    @import '/public/admin_assets/css/style.bundle.css';
