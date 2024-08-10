@@ -8,7 +8,7 @@
             </i>
             <span class="bullet bullet-dot bg-primary h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink"></span>
         </div> 
-        <div class="menu menu-sub menu-sub-dropdown menu-column w-350px w-lg-375px position-absolute mt-5" data-kt-menu="true" id="kt_menu_notifications" >
+        <div class="menu menu-sub menu-sub-dropdown menu-column w-350px w-lg-375px position-absolute mt-1" data-kt-menu="true" id="kt_menu_notifications" >
             <div class="d-flex flex-column bgi-no-repeat rounded-top"
             style="background-image:url('/admin_assets/media/images/bg/notification-bg.jpg')">
             <h3 class="text-white fw-semibold px-9 mt-10 mb-6">Notifications

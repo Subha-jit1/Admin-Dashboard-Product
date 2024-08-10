@@ -120,11 +120,15 @@
                 <a href="javascript:void(0);" class="menu-link px-5">Account Settings</a>
             </div>
             <div class="menu-item px-5">
-                <a href="javascript:void(0);" class="menu-link px-5">Sign Out</a>
+                <a type="button" @click="logout()" class="menu-link px-5">Sign Out</a>
             </div>
         </div> 
     </div>      
 </template>
 <script setup> 
 import {ref} from 'vue'; 
+import { router } from '@inertiajs/vue3';
+const logout = () => {
+    router.post(route('admin.logout'));
+}
 </script>
