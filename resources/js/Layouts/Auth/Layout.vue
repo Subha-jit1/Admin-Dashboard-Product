@@ -26,7 +26,7 @@
                                           <span class="path7"></span>
                                           <span class="path8"></span>
                                           <span class="path9"></span>
-                                          <span class="path10"></span>
+                                          <span class="path10"></span> 
                                     </i>
                                        <span data-kt-element="lang-name">Dark</span>
                                     </a>
@@ -102,7 +102,7 @@
         }
    };
  
-    //methods
+     
     const setThemeMode = (mode) => {
         let isSystemTheme = 0;
         if (mode === "system") {

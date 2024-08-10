@@ -3,8 +3,7 @@
   import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
   import { defineAsyncComponent } from 'vue';
   import moment from 'moment';
-  import emitter from 'tiny-emitter/instance';  
-
+  import emitter from 'tiny-emitter/instance';   
   window.emit = emitter;
 
   const AdminLayout = defineAsyncComponent(() =>
