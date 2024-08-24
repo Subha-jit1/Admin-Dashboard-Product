@@ -1,10 +1,12 @@
-<?php 
+    <?php 
 
-use App\Http\Controllers\Admin\HomeController;
-use Illuminate\Support\Facades\Route;
+    use App\Http\Controllers\Admin\HomeController;
+    use App\Http\Middleware\AuthenticateRequests;
+    use App\Http\Middleware\PreventBackButtonMiddleware;
+    use Illuminate\Support\Facades\Route;
 
-Route::prefix('admin')->name('admin.')->group(function () {  
-    Route::get('dashboard', [HomeController::class, 'dashboard'])->name('dashboard');
-});
+    Route::prefix('admin')->name('admin.')->middleware([AuthenticateRequests::class])->group(function () {  
+        Route::get('dashboard', [HomeController::class, 'dashboard'])->name('dashboard')->middleware(PreventBackButtonMiddleware::class); 
+    });
 
-require __DIR__.'/auth.php';
+    require __DIR__.'/auth.php';

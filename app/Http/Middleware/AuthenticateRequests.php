@@ -6,23 +6,19 @@ use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Symfony\Component\HttpFoundation\Response;
-use Illuminate\Support\Facades\Redirect;
 
-
-class RedirectIfAuthenticated
+class AuthenticateRequests
 {
     /**
      * Handle an incoming request.
      *
      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
-    public function handle($request, Closure $next, $guard = null): Response
-    {
-        if (Auth::guard($guard)->check()) {  
-            return redirect()->intended(route('admin.dashboard'));
-
+    public function handle(Request $request, Closure $next): Response
+    {   
+        if(!Auth::check()){
+            return redirect()->route('admin.login');    
         }
-
         return $next($request);
     }
 }
