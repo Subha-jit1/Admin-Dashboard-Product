@@ -6,10 +6,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
-    use HasFactory, Notifiable;
+    use HasFactory, Notifiable, HasRoles; 
+
+    // appends
+    protected $appends = [
+        'profile_photo_url',
+        'full_name'
+    ];
 
     /**
      * The attributes that are mass assignable.
@@ -44,4 +51,13 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function getFullNameAttribute(){
+        return "{$this->first_name} {$this->middle_name} {$this->last_name}";
+    }
+    
+    public function getProfilePhotoUrlAttribute(){
+        return 'https://ui-avatars.com/api/?name='.urlencode($this->name); 
+    }
+
 }

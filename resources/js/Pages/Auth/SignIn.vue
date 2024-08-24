@@ -55,6 +55,6 @@
     });
 
     const submit = () => {
-        form.post(route('admin.signin'));
+        form.post(route('admin.login'));
     }
 </script>
