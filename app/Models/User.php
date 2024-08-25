@@ -57,7 +57,7 @@ class User extends Authenticatable
     }
     
     public function getProfilePhotoUrlAttribute(){
-        return 'https://ui-avatars.com/api/?name='.urlencode($this->name); 
+        return 'https://ui-avatars.com/api/?name='.urlencode($this->full_name); 
     }
 
 }

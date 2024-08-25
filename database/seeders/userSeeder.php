@@ -13,7 +13,7 @@ class userSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory()->create([
+        $user = User::factory()->create([
             'first_name' => 'Jhon',
             'middle_name' => '',
             'last_name' => 'Doe',
@@ -21,7 +21,9 @@ class userSeeder extends Seeder
             'password' => '11111111',
         ]);
 
-        User::factory()->create([
+        $user->assignRole('ADMIN');
+
+        $user = User::factory()->create([
             'first_name' => 'jim',
             'middle_name' => '',
             'last_name' => 'Hopper',
@@ -29,5 +31,8 @@ class userSeeder extends Seeder
             'password' => '11111111',
         ]);
 
-        User::factory()->count(50)->create();    }
+        $user->assignRole('SUPER-ADMIN');
+
+        User::factory()->count(50)->create();
+    }
 }

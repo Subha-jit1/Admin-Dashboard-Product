@@ -1,5 +1,5 @@
 <template>  
-     
+     <Head title="Dashboard" />
     <div class="row g-5 g-xl-8">
         <div class="col-xl-4">
             <div class="row mb-5 mb-xl-8 g-5 g-xl-8">
@@ -12,6 +12,7 @@
                     <span class="path4"></span>
                     </i>
                     <span class="fs-4 fw-bold">User profiles</span>
+                        {{user.can('dashboard.view')}}
                     </a>
                 </div>
                 <div class="col-6">
@@ -1706,10 +1707,9 @@
         </div>
      </div>
 </template>
-<script setup>
-    import { usePage } from '@inertiajs/vue3';  
+<script setup>  
     import { onMounted, ref } from 'vue';
     onMounted(() => {
         emit.emit('pageName','Dashboard', []);
-    });
+    }); 
 </script>
