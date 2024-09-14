@@ -57,7 +57,18 @@ class User extends Authenticatable
     }
     
     public function getProfilePhotoUrlAttribute(){
-        return 'https://ui-avatars.com/api/?name='.urlencode($this->name); 
+        return 'https://ui-avatars.com/api/?name='.urlencode($this->full_name).'&length=2&color=398bf7&background=cff7fa&format=png'; 
+    } 
+
+    public function conversations()
+    {
+        return $this->belongsToMany(Conversation::class, 'conversation_users');
     }
 
+    // Relationship with messages the user has sent
+    public function messages()
+    {
+        return $this->hasMany(Message::class, 'sender_id');
+    }
+    
 }

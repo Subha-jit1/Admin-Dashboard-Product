@@ -3,8 +3,8 @@
       data-kt-sticky-offset="{lg: '300px'}">
       <div class="header-container container-xxl">
          <div class="page-title d-flex flex-column align-items-start justify-content-center flex-wrap me-lg-20 py-3 py-lg-0 me-3"> 
-            <h1 class="d-flex flex-column text-gray-900 fw-bold my-1">
-               <span class="fs-1">{{ title ? title : 'Title' }}</span>
+            <h1 class="d-flex flex-column text-gray-900 fw-bold my-1"> 
+               <span class="fs-1" :class="{'text-animate-up' : titleChanged}">{{ title ? title : 'Title' }}</span>
             </h1>
             <ul class="breadcrumb breadcrumb-line fw-semibold fs-7 my-1">
                <li class="breadcrumb-item text-gray-600">
@@ -36,13 +36,14 @@
    </div>
 </template>
 <script setup> 
-   import { onMounted, ref } from 'vue';
+   import { onMounted, ref, watch, nextTick } from 'vue';
    import Search from './WrapperComponents/Search.vue';
    import Notification from './WrapperComponents/Notification.vue';
    import SignOut from './WrapperComponents/SignOut.vue';
    import ThemeChange from './WrapperComponents/ThemeChange.vue';
    const pageNames = ref('');
    const title = ref('');
+   const titleChanged = ref(false);
    onMounted(() => {
       emit.on("pageName", function (arg1) {
                 title.value = arg1;
@@ -51,4 +52,28 @@
             pageNames.value = arg2;
       }); 
    });
+
+   watch(title, async (newValue, oldValue) => {
+      if (newValue !== oldValue) {
+         titleChanged.value = false;
+         await nextTick();
+         titleChanged.value = true;   
+      }
+   });
 </script>
+
+<style>
+   .text-animate-up {
+        animation: slideRightToUP 1s ease forwards;
+    }
+    @keyframes slideRightToUP {
+        0% {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+</style>

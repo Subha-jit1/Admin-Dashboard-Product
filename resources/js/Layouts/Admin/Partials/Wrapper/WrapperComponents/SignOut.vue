@@ -11,13 +11,13 @@
             <div class="menu-item px-3">
                 <div class="menu-content d-flex align-items-center px-3">
                 <div class="symbol symbol-50px me-5">
-                    <img alt="Logo" src="" />
+                    <img alt="Logo" :src="user?.profile_photo_url" />
                 </div>
-                <div class="d-flex flex-column">
+                <div class="d-flex flex-column"> 
                     <div class="fw-bold d-flex align-items-center fs-5">{{user?.full_name}}
-                        <span class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">Pro</span>
+                        <!-- <span class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">Pro</span> -->
                     </div>
-                    <a href="javascript:void(0);" class="fw-semibold text-muted text-hover-primary fs-7">max@kt.com</a>
+                    <a href="javascript:void(0);" class="fw-semibold text-muted text-hover-primary fs-7">{{user?.email}}</a>
                 </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@
             </div>
             <div class="menu-item px-5">
                 <a type="button" @click="logout()" class="menu-link px-5">Sign Out
-                    <span class="spinner-border spinner-border-sm align-middle ms-2" v-if="isClickedToLogout"></span>    
+                   
                 </a>
             </div>
         </div> 
@@ -129,12 +129,15 @@
 </template>
 <script setup> 
 import {ref} from 'vue'; 
-import { router, usePage } from '@inertiajs/vue3';
-const isClickedToLogout = ref(false);
-const logout = () => {
-    isClickedToLogout.value = true;
-    router.post(route('admin.logout'));
-}
-
-const user = usePage().props?.user;  
+import { router, usePage } from '@inertiajs/vue3'; 
+const logout = () => { 
+    router.post(route('admin.logout'), {}, {
+        preserveScroll: true,   
+        preserveState: true,   
+        onSuccess: () => {
+            
+        }
+    });
+} 
+  const user = usePage().props?.auth?.user;
 </script>

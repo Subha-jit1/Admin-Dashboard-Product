@@ -2,20 +2,23 @@
   import { createInertiaApp, usePage, Link, Head } from '@inertiajs/vue3';
   import { ZiggyVue } from '../../vendor/tightenco/ziggy';
   import { defineAsyncComponent } from 'vue';
+  import canMixin from './Helpers/canMixin.js'
   import moment from 'moment';
   import emitter from 'tiny-emitter/instance';   
   window.emit = emitter;
-
+  
   const AdminLayout = defineAsyncComponent(() =>
     import('./Layouts/Admin/Layout.vue')
-  );
-  
-  const AuthLayout = defineAsyncComponent(() =>
-    import('./Layouts/Auth/Layout.vue')
-  );
+);
+
+const AuthLayout = defineAsyncComponent(() =>
+  import('./Layouts/Auth/Layout.vue')
+);
 
 
-  createInertiaApp({
+
+createInertiaApp({
+      title: title => `${title ? title + ' | ' : ''}  ${usePage().props.appName}`,
       resolve: async name => {  
         const pages = import.meta.glob('./Pages/**/*.vue', { eager: false })
         let page = await pages[`./Pages/${name}.vue`]()
@@ -34,7 +37,9 @@
         createApp({ render: () => h(App, props) })
           .use(ZiggyVue)
           .use(plugin)  
+          .mixin(canMixin)
           .component('Link',Link)
+          .component('Head',Head)
           .mount(el)
       },
 

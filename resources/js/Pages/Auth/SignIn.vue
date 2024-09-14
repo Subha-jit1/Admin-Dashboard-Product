@@ -1,4 +1,5 @@
 <template>
+   <Head title="Login" />
     <div class="d-flex flex-stack py-2">
        <div class="me-2"></div>
        <div class="m-0">
