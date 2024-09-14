@@ -131,7 +131,13 @@
 import {ref} from 'vue'; 
 import { router, usePage } from '@inertiajs/vue3'; 
 const logout = () => { 
-    router.post(route('admin.logout'));
+    router.post(route('admin.logout'), {}, {
+        preserveScroll: true,   
+        preserveState: true,   
+        onSuccess: () => {
+            
+        }
+    });
 } 
-const user = usePage().props?.auth?.user;    
+  const user = usePage().props?.auth?.user;
 </script>
